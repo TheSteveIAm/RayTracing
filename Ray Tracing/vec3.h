@@ -14,6 +14,27 @@ public:
 	inline float b() const { return e[1]; }
 
 	inline const vec3& operator+() const { return *this; }
+	inline vec3 operator-() const { return vec3(-e[0], -e[1], -e[2]); }
+	inline float operator[](int i) const { return e[i]; }
+	inline float& operator[](int i) { return e[i]; }
+
+	inline vec3& operator+=(const vec3& v2);
+	inline vec3& operator-=(const vec3& v2);
+	inline vec3& operator*=(const vec3& v2);
+	inline vec3& operator/=(const vec3& v2);
+	inline vec3& operator*=(const float t);
+	inline vec3& operator/=(const float t);
+
+	inline float length() const {
+		return sqrt(e[0] * e[0] + e[1] * e[1] + e[2] * e[2]);}
+	inline float squared_length() const {
+		return e[0] * e[0] + e[1] * e[1] + e[2] * e[2];}
+	inline void make_unit_vector();
 
 	float e[3];
-};
+};	
+
+inline std::istream& operator>>(std::istream& is, vec3& t) {
+	is >> t.e[0] >> t.e[1] >> t.e[2];
+	return is;
+}
