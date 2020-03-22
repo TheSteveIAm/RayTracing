@@ -1,10 +1,27 @@
 ﻿  Source.cpp
-D:\Repositories\RayTracing\RayTracing\Ray Tracing\vec3.h(50,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\Repositories\RayTracing\RayTracing\Ray Tracing\vec3.h(128,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\Repositories\RayTracing\RayTracing\Ray Tracing\hitable_list.h(20,30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(10,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(23,5): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(29,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(30,15): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(30,66): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\vec3.h(52,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\vec3.h(130,10): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\hitable_list.h(21,30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\random.h(8,25): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\camera.h(20,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\material.h(13,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\material.h(73,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(14,5): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(26,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(27,15): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(27,66): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(39,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(39,84): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(39,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(40,7): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(43,163): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(47,89): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(47,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(47,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(47,122): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(47,146): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(50,62): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(57,79): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(58,73): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Repositories\RayTracing\RayTracing\Ray Tracing\Source.cpp(78,22): warning C4305: 'initializing': truncation from 'double' to 'float'
   Ray Tracing.vcxproj -> D:\Repositories\RayTracing\RayTracing\Debug\Ray Tracing.exe
